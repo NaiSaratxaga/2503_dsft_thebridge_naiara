@@ -17,8 +17,8 @@ def numero_a_dia(numero):
     # en caso de que el número no exista en el diccionario, en este caso devolvemos "Número inválido"
     return dias.get(numero, "Número inválido")
 
-# aquí llamamos a la función con algún número
-numero_a_dia(1)  
+    # aquí llamamos a la función con algún número
+numero_a_dia(2)  
 
 # ejercicio 2
 """ #Implementa un programa que imprima por pantalla el siguiente patrón
