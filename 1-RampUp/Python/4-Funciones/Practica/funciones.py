@@ -21,7 +21,7 @@ def numero_a_dia(numero):
 numero_a_dia(2)  
 
 # ejercicio 2
-""" #Implementa un programa que imprima por pantalla el siguiente patrón
+''' #Implementa un programa que imprima por pantalla el siguiente patrón
 
 #5 4 3 2 1 
 
@@ -31,9 +31,9 @@ numero_a_dia(2)
 
 #2 1 
 
-# """
+# '''
 
-""" n = 5 #Inicializamos n con 5 para que el patrón tenga 5 lineas
+''' n = 5 #Inicializamos n con 5 para que el patrón tenga 5 lineas
 
 for i in range(n, 0, -1): #Este bucle externo controla el número de filas en el patrón.
 #range(n, 0, -1) El rango comienza en n y termina en 0, disminuyendo en 1 en cada iteración.
@@ -42,7 +42,7 @@ for i in range(n, 0, -1): #Este bucle externo controla el número de filas en el
         print( j, end=" ") #imprime el valor de j en la misma línea, el end hace que estén en la misma línea
     print("") #imprime una nueva línea después de imprimir todos los números de la fila
 print()
- """
+ '''
 
 #Crea una función que replique el comportamiento de la pirámide que hicimos 
 # en el ejercicio de patrones, pero en este caso, la pirámide debe estar invertida, 
