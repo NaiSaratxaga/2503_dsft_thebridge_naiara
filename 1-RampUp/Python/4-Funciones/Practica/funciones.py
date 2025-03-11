@@ -150,6 +150,11 @@ mi_lista = mi_funcion(mi_lista, "remove", 23)
 print(mi_lista)
 
 # ejercicio 8
+def fib(n):
+    if n ==1 or n == 0:
+        return n
+    else:
+        return fib(n-1) + fib(n-2)
 
 # ejercicio 9
 
@@ -180,3 +185,7 @@ area_total_2 = (area_cuadrado(10)) + (area_circulo(4) + 2 * area_circulo(6)) + (
 print(f"Área total del segundo caso: {area_total_2:.2f}")
 
 
+# HAY QU EQUITAR LAS LLAMADAS DE CADA FUNCIÓN Y EXPLICAR QUE HACE CADA FUNCIÓN
+
+if __name__ == "__main__":
+    print(area_triangulo(3, 7))
