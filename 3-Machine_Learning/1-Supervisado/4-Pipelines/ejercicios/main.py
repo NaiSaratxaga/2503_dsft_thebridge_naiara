@@ -12,3 +12,5 @@ sample = np.array([[14.0, 20.0, 90.0, 600.0, 0.1, 0.2, 0.3, 0.2, 0.3, 0.1,
                     16.0, 30.0, 110.0, 800.0, 0.13, 0.4, 0.45, 0.2, 0.4, 0.1]])
 prediction = modelo.predict(sample)
 print("Predicción:", prediction)
+
+
