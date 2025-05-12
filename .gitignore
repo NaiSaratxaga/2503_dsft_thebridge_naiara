@@ -15,5 +15,6 @@ env/
 .DS_Store
 Thumbs.db
 
-
+# Ignorar una carpeta específica
+C:\Users\nsara\Desktop\naiara_thebridge\2503_dsft_thebridge_naiara\3-Machine_Learning\Open CV_taller
 
